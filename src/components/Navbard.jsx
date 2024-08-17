@@ -11,7 +11,7 @@ function Navbard() {
         </button>
       </div>
       <div className="navbard-title">
-        <img src={logo} alt="El Tiempo" className="img" />
+        <img src={logo} alt="El Tiempo" className="img" style={{ marginLeft: '-80px' }}/>
       </div>
     </nav>
   );

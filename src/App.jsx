@@ -8,10 +8,12 @@ function App() {
   return (
     <>
       <div>
-        kjnkj
+      <a className="menu-link" href="/economia/finanzas-personales/¿legustaríatrabajardesdecasa?">
+          Ver Noticia
+      </a>
       </div>
       <p className="t">
-        Click on the Vite and React logos to learn more
+        Click
       </p>
     </>
   )
