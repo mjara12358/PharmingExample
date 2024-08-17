@@ -1,0 +1,118 @@
+body {
+  max-width: 100%;
+  background-color: white;
+  margin: 0; /* Elimina márgenes del body */
+}
+
+#root {
+  /* Puedes eliminar este selector si no estás usando un contenedor central */
+  margin: 0 auto;
+  padding: -2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.icon {
+  color: inherit;
+  width: 20px;
+}
+
+.t {
+  color: black;
+}
+
+/* navdard */
+.navbard {
+  background-color: #0B5891; /* Color azul similar al de la imagen */
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Distribuye elementos horizontalmente */
+  align-items: center;
+  padding: 0.3rem;
+  width: 100%;
+  position: fixed; /* Fija el navbar a la parte superior */
+  top: 0; /* Posiciona el navbar en la parte superior */
+  z-index: 999; /* Coloca el navbar encima de otros elementos */
+}
+
+.navbard-left {
+  display: flex;
+  align-items: center;
+}
+
+.btn-search {
+  background: none;
+  border: none;
+  color: white;
+  margin-right: 1rem;
+  /* Agregar estilos adicionales para los botones */
+}
+
+.navbard-title {
+  /* Puedes ajustar el ancho según tus necesidades */
+  width: 100%;
+  text-align: center; /* Centra el título */
+}
+
+.img {
+  width: 10%; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción */
+}
+
+/* NotiUno */
+.noti-uno {
+  color: white;
+  font-weight: bold;
+  padding: 0rem;
+  text-align: center;
+}
+
+.imgport {
+  width: 100%;
+}
+
+.imgelem1 {
+  width: 10%;
+}
+
+.noti-uno-title {
+  color: #0070AA;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.noti-uno-text {
+  color: black;
+  font-weight: normal;
+  margin-left: 1px;
+  margin-right: 5px;
+  width: 90%;
+  text-align: left;
+}
+
+.noti-uno-a {
+  color: #0070AA;
+}
+
+/* Modal Face */
+input::placeholder {
+  color: #aaa; /* Color gris para el placeholder */
+}
+
+.modalface-title {
+  color: black;
+  margin-top: -2px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.modalface-text {
+  color: black;
+  font-weight: normal;
+  margin-left: 1px;
+  margin-right: 5px;
+  margin-top: -25px;
+  width: 90%;
+  text-align: left;
+}
