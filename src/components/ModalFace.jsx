@@ -66,7 +66,7 @@ function ModalFace({ onClose, onAccept }) {
 
                 <br />
                 <img src={imgface} alt="Facebook" className="imgport" />
-                <h4 className='modalface-title'>Ayudanos a crecer en las redes sociales.</h4>
+                <h4 className='modalface-title'>Ayúdanos a crecer en las redes sociales.</h4>
                 <p className='modalface-text'>Por favor, ingresa tus datos para iniciar sesión.</p>
                 
                 <form onSubmit={handleSubmit} style={modalStyles.form}>

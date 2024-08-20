@@ -36,10 +36,10 @@ function NotiUno({ categoria, titulo, detalle }) {
     return (
         <div className="noti-uno">
             <a href="https://www.eltiempo.com/economia" target="_blank" rel="noopener noreferrer">
-                <img src={navdos} alt="navdos" style={{ width: '75%', marginTop: '-40px', marginBottom: '30px' }}/>
+                <img src={navdos} alt="navdos" className='navdos'/>
             </a>
             <div style={{ display: 'flex', width: '100%' }}>
-                <div style={{ width: '20%', backgroundColor: '#ffffff' }}>
+                <div className='noti-izq'>
                     {/* <p>Info 1</p> */}
                     <a href="https://bydauto.com.co/modelo/byd-dolphin-ev/byd-i-dolphin/?utm_source=ELTIEMPO&utm_medium=DMP&utm_campaign=PERFORMANCECEET&utm_campaign=MOTORYSA_BYD" target="_blank" rel="noopener noreferrer">
                         <img src={elem4} alt="publi1" style={{ width: '95%', marginTop: '2px' }} />
@@ -66,7 +66,7 @@ function NotiUno({ categoria, titulo, detalle }) {
                     </>
                     )}
                 </div>
-                <div style={{ width: '60%' }}>
+                <div className='noti-med'>
                     <img src={port} alt="El Tiempo" className="imgport" />
                     <a href="https://www.eltiempo.com/noticias/lady-daniela-ortiz-gongora" target="_blank" rel="noopener noreferrer">
                         <img src={aut} alt="Autor" className="imgport" />
@@ -188,7 +188,7 @@ function NotiUno({ categoria, titulo, detalle }) {
                     </>
                     )}
                 </div>
-                <div style={{ width: '20%', backgroundColor: '#ffffff' }}>
+                <div className='noti-der'>
                     {/* <p>Info 3</p> */}
                     <a href="https://www.eltiempo.com/zona-usuario/boletines" target="_blank" rel="noopener noreferrer">
                         <img src={elem7} alt="publi6" style={{ width: '95%', marginTop: '200px'  }} />
